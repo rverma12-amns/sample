@@ -1,0 +1,48 @@
+/* src/KPIDashboard.css */
+
+.kpi-container {
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  min-height: 100vh;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kpi-header {
+  display: flex;
+  align-items: center;
+  background-color: #b71c1c;
+  padding: 15px 25px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.kpi-header img {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.kpi-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.kpi-form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.kpi-button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+}
+
+.kpi-button:hover {
+  background-color: #1565c0;
+  color: white;
+}
