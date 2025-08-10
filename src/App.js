@@ -14,7 +14,6 @@ import moment from "moment";
 import * as XLSX from "xlsx";
 import jsPDF from "jspdf";
 import "jspdf-autotable";
-import "./KPIDashboard.css";
 
 const { Option } = Select;
 
@@ -213,8 +212,6 @@ const KPIDashboard = () => {
     </Form>
   );
 };
-
-
 
 export default KPIDashboard;
 
